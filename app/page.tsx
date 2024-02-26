@@ -31,7 +31,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          {/* <img
+          <img
             src={HeroDesktopImg.src}
             alt="HeroImage"
             width={1000}
@@ -44,14 +44,21 @@ export default function Home() {
             width={560}
             height={620}
             className="block md:hidden"
-          /> */}
-          <Image
+          />
+          {/* <Image
             src="/hero-desktop.png"
             alt="HeroImage"
             width={1000}
             height={760}
             className="hidden md:block"
           />
+          <Image
+            src="/hero-mobile.png"
+            width={560}
+            height={620}
+            className="block md:hidden"
+            alt="Mobile HeroImage"
+          /> */}
         </div>
       </div>
     </main>
